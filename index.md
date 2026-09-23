@@ -27,4 +27,4 @@ deleting the local application files.
 
 ## Contact
 
-Matyáš Sedláček — <your_personal_email@example.com>
+Matyáš Sedláček — sedlacek.matyas.km@gmail.com
