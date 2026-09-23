@@ -1,4 +1,6 @@
 # PerFin — Privacy Notice
+---
+See also: [Terms of Use](terms.md)
 
 PerFin is a personal, non-commercial application operated by
 Matyáš Sedláček (the developer). It is used solely by its operator
