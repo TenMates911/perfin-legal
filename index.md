@@ -30,3 +30,5 @@ deleting the local application files.
 ## Contact
 
 Matyáš Sedláček — sedlacek.matyas.km@gmail.com
+
+Last updated: 2026-09-23
