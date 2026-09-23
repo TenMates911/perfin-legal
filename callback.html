@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PerFin - consent callback</title>
+</head>
+<body>
+  <h2>Authorization complete</h2>
+  <p>Copy the code below and paste it into the terminal:</p>
+  <textarea id="code" readonly rows="4" cols="60"></textarea>
+  <p id="state"></p>
+  <script>
+    const params = new URLSearchParams(location.search);
+    document.getElementById("code").value =
+      params.get("code") || "No code in URL - check the address bar";
+    const state = params.get("state");
+    if (state) {
+      document.getElementById("state").textContent =
+        "state: " + state;
+    }
+  </script>
+</body>
+</html>
